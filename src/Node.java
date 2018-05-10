@@ -1,6 +1,6 @@
 
-public class MyList {
-	private MyList next;
+public class Node {
+	private Node next;
 	private int value;
 	public int getValue() {
 		return value;
@@ -8,10 +8,10 @@ public class MyList {
 	public void setValue(int value) {
 		this.value = value;
 	}
-	public MyList getNext() {
+	public Node getNext() {
 		return next;
 	}
-	public void setNext(MyList next) {
+	public void setNext(Node next) {
 		this.next = next;
 	}
 	
